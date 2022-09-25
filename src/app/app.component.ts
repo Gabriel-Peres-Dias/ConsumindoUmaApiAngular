@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FrutaService } from './fruta.service';
+import { FrutaService } from './service/fruta.service';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +14,7 @@ export class AppComponent {
   obterFrutas() {
     this.frutaService.obterFrutas()
     .then(frutas => console.log(frutas))
-    .catch( erro => console.log(erro))
+    .catch(erro => console.log(erro))
   }
 
 }
