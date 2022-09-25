@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CarroService } from './carro.service';
+import { FrutaService } from './fruta.service';
 
 @Component({
   selector: 'app-root',
@@ -9,11 +9,11 @@ import { CarroService } from './carro.service';
 export class AppComponent {
   title = 'AngularHttp';
 
-  constructor( private carroService: CarroService ){}
+  constructor( private frutaService: FrutaService ){}
 
-  obterCarros() {
-    this.carroService.obterCarros()
-    .then(carros => console.log(carros))
+  obterFrutas() {
+    this.frutaService.obterFrutas()
+    .then(frutas => console.log(frutas))
     .catch( erro => console.log(erro))
   }
 
