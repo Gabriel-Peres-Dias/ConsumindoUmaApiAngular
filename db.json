@@ -1,0 +1,19 @@
+{
+  "carros": [
+  {
+    "id": 1,
+    "marca": "Fiat",
+    "nome": "Siena"
+  },
+  {
+    "id": 2,
+    "marca": "Ford",
+    "nome": "Ka"
+  },
+  {
+    "id": 2,
+    "marca": "Tesla",
+    "nome": "Fodase"
+  }
+  ]
+}
